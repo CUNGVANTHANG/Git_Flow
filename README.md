@@ -82,5 +82,15 @@ git checkout -b [tên_nhánh]
 ```
 git checkout -b release-1.0.0
 git merge develop
+git push
 ```
 
+<div align="center">
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/e9f37929-ab8c-4b20-9e57-480111c51c91" />
+</div>
+
+Sau khi release xong có quyết định merge vào nhánh main/master. Từ nhánh main/master sẽ có quyết định đẩy code lên production
+
+<div align="center">
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/208f7c35-aa26-4ceb-9073-68d464dceb64" />
+</div>
