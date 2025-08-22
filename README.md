@@ -75,5 +75,12 @@ git checkout -b [tên_nhánh]
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/00d0414f-5bab-4be8-ba87-2b3428c30aed" />
 </div>
 
+**5. Quản lý** sau khi code ở nhánh develop đã hoàn thành, chuyển sang giai đoạn release
 
+Đứng tại nhánh develop
+
+```
+git checkout -b release-1.0.0
+git merge develop
+```
 
